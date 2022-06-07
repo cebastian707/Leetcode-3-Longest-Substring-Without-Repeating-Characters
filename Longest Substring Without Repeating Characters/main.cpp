@@ -10,7 +10,6 @@
 int lengthOfLongestSubstring(std::string s){
 	//variables
 	std::map<char, int> hash;
-	int count = 0;
 	int max = 0;
 	int l = 0;
 	int r = 1;
